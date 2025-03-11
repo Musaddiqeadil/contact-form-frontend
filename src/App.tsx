@@ -32,7 +32,8 @@ const App: React.FC = () => {
       alert(' Error ! All fields are required!');
     } else {
       try {
-        await axios.post('http://localhost:1000/api/v1/post', value);
+        // Use the environment variable for the backend URL
+        await axios.post(`https://contact-form-3-ncsg.onrender.com/api/v1/post`, value);
         console.log('Data saved successfully');
         alert('Data saved successfully');
         setvalue({
