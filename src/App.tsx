@@ -33,7 +33,7 @@ const App: React.FC = () => {
     } else {
       try {
         // Use the environment variable for the backend URL
-        await axios.post(`https://contact-form-3-ncsg.onrender.com/api/v1/post`, value);
+        await axios.post(`https://contact-form-4-cm3a.onrender.com`, value);
         console.log('Data saved successfully');
         alert('Data saved successfully');
         setvalue({
