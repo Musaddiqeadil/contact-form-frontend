@@ -87,7 +87,7 @@ const App: React.FC = () => {
             ></textarea>
           </div>
 
-          <div className='imp-data d-flex flex-row justify-content-between'>
+          <div className='imp-data '>
             <div>
               <h5>State</h5>
               <input
